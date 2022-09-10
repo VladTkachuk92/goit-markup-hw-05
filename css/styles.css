@@ -376,8 +376,7 @@ img {
   background-color: var(--main-white);
   color: var(--icon-color);
   border-radius: 50%;
-  transition: color var(--anim);
-  transition: background-color var(--anim);
+  transition: color var(--anim), background-color var(--anim);
 }
 
 .socials-icon {
@@ -443,6 +442,11 @@ img {
   color: var(--footer-color);
   line-height: 1.71;
   text-decoration: none;
+  transition: color var(--anim);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
 }
 .adress-item:not(:last-child) {
   margin-bottom: 9px;
